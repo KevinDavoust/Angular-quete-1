@@ -1,0 +1,8 @@
+.blocks {
+    min-height: 100vh;
+}
+
+.blocks, .blocks2 {
+    display: flex;
+    justify-content: space-between;
+  }
