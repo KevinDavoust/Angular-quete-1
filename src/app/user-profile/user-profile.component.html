@@ -1,0 +1,12 @@
+<h1>Fiche utilisateur</h1>
+
+<div>
+    <img [src]="user.photo">
+    <h2>Nom: {{user.name}}</h2>
+    <h2>Prénom: {{user.firstname}}</h2>
+    <p>{{user.quote}}</p>
+    <input type="text" [(ngModel)]="user.quote">
+
+    <button (click)="showAge()">Afficher / masquer mon âge</button>
+    <p [style.visibility]="isHidden? 'hidden' : 'visible'">{{user.age}}</p>
+</div>
