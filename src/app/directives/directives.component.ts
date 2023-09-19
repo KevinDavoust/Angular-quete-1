@@ -13,4 +13,17 @@ export class DirectivesComponent {
   isGuestListDisplayed: boolean = true;
 
   songList: string[] = ["son1", "son2", "son3"];
+
+  isAdmin: boolean = true;
+
+  switchRole(): void {
+    const button: any = document.getElementById("switchRole");
+    if (this.isAdmin === true) {
+      this.isAdmin = false;
+      button.innerText = "Become admin";
+    } else {
+      this.isAdmin = true;
+      button.innerText = "Become visitor";
+    }
+  }
 }
