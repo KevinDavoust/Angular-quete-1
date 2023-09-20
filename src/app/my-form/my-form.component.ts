@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Order } from '../order';
+import { Order } from '../models/order';
 
 @Component({
   selector: 'app-my-form',

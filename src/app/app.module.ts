@@ -11,6 +11,8 @@ import { DirectivesComponent } from './directives/directives.component';
 import { MenuComponent } from './menu/menu.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { MyFormComponent } from './my-form/my-form.component';
+import { DeveloperComponent } from './developer/developer.component';
+import { SkillComponent } from './skill/skill.component';
 
 @NgModule({
   declarations: [AppComponent,
@@ -19,7 +21,9 @@ import { MyFormComponent } from './my-form/my-form.component';
     DirectivesComponent,
     MenuComponent,
     SignUpComponent,
-    MyFormComponent,],
+    MyFormComponent,
+    DeveloperComponent,
+    SkillComponent,],
     
     imports: [BrowserModule,
       FormsModule,
