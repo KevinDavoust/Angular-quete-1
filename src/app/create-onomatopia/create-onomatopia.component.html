@@ -1,0 +1,7 @@
+  <fieldset>
+    <label for="onomatopia">New onomatopia</label>
+    <input id="onomatopia" name="onomatopia" type="text" [(ngModel)]="newOnomatopia"/>
+</fieldset>
+
+<button type="reset">Restaurer</button>
+<button (click)="createOnomatopia()">Envoyer onomatopée</button>
